@@ -12,3 +12,4 @@ public class UpdateCartItemRequest {
     @Max(value = 1000, message = "Quantity must be less than or equal to 100.")
     private Integer quantity;
 }
+

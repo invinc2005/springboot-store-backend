@@ -35,3 +35,4 @@ public class Profile {
     @MapsId
     private User user;
 }
+

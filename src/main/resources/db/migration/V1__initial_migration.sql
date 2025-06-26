@@ -72,3 +72,4 @@ CREATE INDEX fk_wishlist_on_user ON wishlist (user_id);
 
 ALTER TABLE profiles
     ADD CONSTRAINT profiles_ibfk_1 FOREIGN KEY (id) REFERENCES users (id) ON DELETE NO ACTION;
+

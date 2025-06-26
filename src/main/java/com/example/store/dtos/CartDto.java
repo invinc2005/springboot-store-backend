@@ -13,3 +13,4 @@ public class CartDto {
     private List<CartItemDto> items = new ArrayList<>();
     private BigDecimal totalPrice = BigDecimal.ZERO;
 }
+

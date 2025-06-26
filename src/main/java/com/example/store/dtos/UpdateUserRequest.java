@@ -7,3 +7,4 @@ public class UpdateUserRequest {
     public String name;
     public String email;
 }
+

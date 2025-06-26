@@ -16,3 +16,4 @@ public interface ProductMapper {
     @Mapping(target = "id", ignore = true)
     void update(ProductDto productDto, @MappingTarget Product product);
 }
+

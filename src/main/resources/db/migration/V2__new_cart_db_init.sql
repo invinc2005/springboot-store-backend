@@ -21,3 +21,4 @@ create table cart_items
         foreign key (product_id) references products (id)
             on delete cascade
 );
+

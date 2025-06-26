@@ -11,3 +11,4 @@ public class LowercaseValidator implements ConstraintValidator<Lowercase,String>
         return value.equals(value.toLowerCase());
     }
 }
+

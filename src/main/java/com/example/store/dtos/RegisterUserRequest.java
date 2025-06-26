@@ -21,3 +21,4 @@ public class RegisterUserRequest {
     @Size(min = 6,max = 25,message = "password must be between 6 and 25 character long")
     private String password;
 }
+
